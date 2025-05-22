@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Habitación 0: Inicio</title>
+<title>Habitación 1: Hola Mundo</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -68,7 +102,7 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <script type="module">
-window.GLOBAL_URL = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/rooms/sala_00.py";
+window.GLOBAL_URL = "https://raw.githubusercontent.com/Tony-Rome/pyscape/refs/heads/main/quarto/rooms/sala_01.py";
 </script>
 <style>
 #quarto-sidebar, #quarto-sidebar-container { display: none !important; }
@@ -235,7 +269,7 @@ globalThis.qpyodideCustomizedPyodideOptions = {
 }
 
 // Store cell data
-globalThis.qpyodideCellDetails = [{"code":"# Escribe tu respuesta aquí\ncodigo_acceso = \"PySchool2025\"\n\n# Verifica la respuesta\nimport sala\nsala.revisar(codigo_acceso)","id":1,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
+globalThis.qpyodideCellDetails = [{"code":"# Escribe tu respuesta aquí\nrespuesta = None\nprint(respuesta)\n\n# Verifica la respuesta\nimport sala\nsala.revisar(respuesta)","id":1,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
 
 
 </script>
@@ -458,7 +492,7 @@ globalThis._qpyodideGetInstance = function() {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../rooms/sala_00.html">Python Escape Room</a></li><li class="breadcrumb-item"><a href="../rooms/sala_00.html"><span class="chapter-title">Habitación 0: Inicio</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../rooms/sala_00.html">Python Escape Room</a></li><li class="breadcrumb-item"><a href="../rooms/sala_01.html"><span class="chapter-title">Habitación 1: Hola Mundo</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Buscar" onclick="window.quartoOpenSearch();">
@@ -504,12 +538,12 @@ globalThis._qpyodideGetInstance = function() {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../rooms/sala_00.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Habitación 0: Inicio</span></a>
+  <a href="../rooms/sala_00.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Habitación 0: Inicio</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../rooms/sala_01.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Habitación 1: Hola Mundo</span></a>
+  <a href="../rooms/sala_01.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Habitación 1: Hola Mundo</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -685,9 +719,9 @@ globalThis._qpyodideGetInstance = function() {
   });
 </script>
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../rooms/sala_00.html">Python Escape Room</a></li><li class="breadcrumb-item"><a href="../rooms/sala_00.html"><span class="chapter-title">Habitación 0: Inicio</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../rooms/sala_00.html">Python Escape Room</a></li><li class="breadcrumb-item"><a href="../rooms/sala_01.html"><span class="chapter-title">Habitación 1: Hola Mundo</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">Habitación 0: Inicio</span></h1>
+<h1 class="title"><span class="chapter-title">Habitación 1: Hola Mundo</span></h1>
 </div>
 
 
@@ -705,29 +739,36 @@ globalThis._qpyodideGetInstance = function() {
 
 
 <center>
-<img src="./img_sala_00.png" width="270">
+<img src="./img_sala_01.png" width="270">
 </center>
-<p>Estas dentro de la estación espacial, seleccionado entre las mejores personas capacitadas para poder reparar a tiempo la falla presentada en que ¡afecta la desestabilización respecto a la órbita!. Tú, junto a tu equipo deben ser capaces de configurar el sistema para que se pueda mantener en órbita la estación.</p>
-<p>¡Bienvenido joven astronauta! Estas a punto de iniciarte en la programación, y que mejor que participar en la solución de la estación espacial.</p>
-<div class="alert alert-info">
-<p><strong>¡Bienvenido a PySchool!</strong><br>
-Cada habitación tiene un enigma, que deberás resolver con Python en conjunto a explicaciones y pistas que se presenten. Puedes realizar tantos intentos como desees.</p>
-<p>¡Buena suerte, futuro pythonista!</p>
+<p>¡Haz llegado a la primera sala y con ello tu primer obstáculo!.</p>
+<p>En un apartado encuentras el mapa general de la estación pero …</p>
+<div class="text-center text-danger font-weight-bold">
+<p><strong>Peligro</strong></p>
+<p>Se ha detectado pérdida de oxígeno en la sala M09. Activar puertas de emergencias.</p>
 </div>
-<div class="callout callout-style-default callout-tip callout-titled" title="Pistas y  Explicaciones">
+<p>Un compañero tuyo te ha confirmado que debido a una grieta en la puerta principal, el oxígeno se está escapando.</p>
+<p>¡Rápido! Debes activar las puertas de emergencia para que no seguir perdiendo oxígeno. Indica al sistema que cierre lo más pronto posible.</p>
+<div class="alert alert-info">
+<p>La primera tarea es escribir “Cerrado”. Cambia el valor de la variable <code>respuesta</code> por <code>"Cerrado"</code> y ejecuta la celda.</p>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled" title="Pista">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Pistas y Explicaciones
+Pista
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>En este tipo de celdas expandibles, encontrarás algunas pistas, explicaciones y enlaces de interés.<br>
-La primera habitación es muy fácil. Sólo tienes que ejecutar la celda haciendo click en “Run Code”.</p>
+<p>Recuerda que en Python, los strings (cadenas de texto) se escriben entre comillas dobles o simples.<br>
+Puedes escribir</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>respuesta<span class="op">=</span><span class="st">"Cerrado"</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>o</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>respuesta<span class="op">=</span><span class="st">'Cerrado'</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 </div>

@@ -67,7 +67,7 @@
     "href": "rooms/sala_03.html",
     "title": "Habitación 3:",
     "section": "",
-    "text": "La temperatura de los paneles solares debe recalibrarse según una fórmula basada en radiación recibida.\n\\[\n\\frac{1,23 + 2,34}{1 + 43/2} + 3 \\times 2^{1,5}\n\\]\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\n\nRecuerda que los números decimales se escriben con “.” por ejemplo 1,2 -&gt; 1.2\n\n:::\n\n```{pyodide-python}\n# Escribe tu respuesta aquí\nrespuesta = 0\nprint(respuesta)\n\n# Verifica la respuesta\nimport sala\nsala.revisar(respuesta)",
+    "text": "La temperatura de los paneles solares debe recalibrarse según una fórmula basada en radiación recibida.\n\\[\n\\frac{1,23 + 2,34}{1 + 43/2} + 3 \\times 2^{1,5}\n\\]\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\n\nRecuerda que los números decimales se escriben con “.” por ejemplo 1,2 -&gt; 1.2\n\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Habitación 3:</span>"

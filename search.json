@@ -45,7 +45,7 @@
     "href": "rooms/sala_01.html",
     "title": "Habitación 1: Hola Mundo",
     "section": "",
-    "text": "¡Haz llegado a la primera sala y con ello tu primer obstáculo!.\n\n\n\n\n\n\nLa terminal del sistema de oxígeno muestra un valor erróneo de presión …\n\nPeligro\nSe ha detectado pérdida de oxígeno en la sala B9-2.\n\n¡Rápido! Activa la puerta de emergencia. Indica a través de la terminal para poder cerrar la sala.\n\nLa primera tarea es escribir “Cerrado”. Cambia el valor de la variable respuesta por \"Cerrado\" y ejecuta la celda.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nRecuerda que en Python, los strings (cadenas de texto) se escriben entre comillas dobles o simples.\nPuedes escribir\nrespuesta=\"Cerrado\"\no\nrespuesta='Cerrado'\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "¡Haz llegado a la primera sala y con ello tu primer obstáculo!.\n\n\n\n\n\n\nLa terminal del sistema de oxígeno muestra un valor erróneo de presión …\n\nPeligro\nSe ha detectado pérdida de oxígeno en la sala B9-2.\n\n¡Rápido! Activa la puerta de emergencia. Indica a través de la terminal para poder cerrar la sala.\n\nLa primera tarea es escribir “Cerrar”. Cambia el valor de la variable respuesta por \"Cerrar\" y ejecuta la celda.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nRecuerda que en Python, los strings (cadenas de texto) se escriben entre comillas dobles o simples.\nPuedes escribir\nrespuesta=\"Ejemplo\"\no\nrespuesta='Ejemplo'\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Habitación 1: Hola Mundo</span>"
@@ -56,7 +56,7 @@
     "href": "rooms/sala_02.html",
     "title": "Habitación 2: Números",
     "section": "",
-    "text": "¡Muy bien! Haz logrado llegar al segundo desafío.\n\n\n\n\n\nLa compuerta de acceso al laboratorio químico requiere un código numérico que se calcula usando la siguiente fórmula:\n\\[\n(201 + 759) \\times 2^{3}\n\\]\n\nDebes reemplazar la palabra None por la fórmula que se muestra arriba, pero cuidado que algunos caracteres matemáticos cambian en el código.\n\n\n\n\n\n\n\nOperaciones matemáticas en Python\n\n\n\n\n\nLas operaciones matemáticas en Python se realizan con los operadores habituales:\n\n+ para la suma\n- para la resta\n* para la multiplicación\n/ para la división\n** para la potencia\n\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "¡Muy bien! Haz logrado llegar al segundo desafío.\n\n\n\n\n\nLa compuerta de acceso al laboratorio químico requiere un código numérico que se calcula usando la siguiente fórmula:\n\\[\n(201 + 759) \\times 2^{3}\n\\]\n\nAsigna a cada variable su respectivo valor numérico según la fórmula. Por ejemplo a = 55.\n\n\n\n\n\n\n\nOperaciones matemáticas en Python\n\n\n\n\n\nLas operaciones matemáticas en Python se realizan con los operadores habituales:\n\n+ para la suma\n- para la resta\n* para la multiplicación\n/ para la división\n** para la potencia\n\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Habitación 2: Números</span>"
@@ -67,7 +67,7 @@
     "href": "rooms/sala_03.html",
     "title": "Habitación 3:",
     "section": "",
-    "text": "¡Excelente! Veamos otro desafío con números.\n\n\n\n\n\nLa temperatura de los paneles solares debe recalibrarse según una fórmula basada en radiación recibida.\n\\[\n\\frac{1,23 + 2,34}{1 + 43/2} + 3 \\times 2^{1,5}\n\\]\n\nIgual que el desafío anterior, se debe reemplazar la palabra None por la fórmula que se muestra arriba.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\n\nRecuerda que los números decimales se escriben con “.” por ejemplo 1,2 -&gt; 1.2\n\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "¡Excelente! Veamos otro desafío con números.\n\n\n\n\n\nLa temperatura de los paneles solares debe recalibrarse según una fórmula basada en radiación recibida.\n\\[\n\\frac{1,23 + 2,34}{1 + 43/2} + 3 \\times 2^{1,5}\n\\]\n\nReemplaza la palabra None armando la misma fórmula con las variables que se muestran, pero primero asegurate de asignarles su correspondiente valor.\n\n\n\n\n\n\n\nNúmeros decimales en código\n\n\n\n\n\nLos números decimales se escriben con “.”. Por ejemplo para 33,5 se puede escribir como a = 33.5.\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Habitación 3:</span>"
@@ -89,7 +89,7 @@
     "href": "rooms/sala_05.html",
     "title": "Habitación 5:",
     "section": "",
-    "text": "¡Estupendo! ya estás dominando las operaciones matemáticas.\n\n\n\n\n\nUna compuerta solo se abrirá si ingresas la suma de la secuencia desde el número 1 al número 1000.\n\nOcupa las funciónes sum(a) y range(b,c). Donde sum(a) suma el conjunto de números que se le envie y range(b,c) crea un rango de números.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nTen cuidado con la función range(b,c) ya que el rango es antes del valor de c.\nPor ejemplo\nsuma = sum(range(5,10)) # range cuenta de 5 a 9.\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "¡Estupendo! ya estás dominando las operaciones matemáticas.\n\n\n\n\n\nUna compuerta solo se abrirá si ingresas la suma de la secuencia desde el número 1 al número 1000.\n\nAsigna los valores correspondientes a las variables a y b.\n\n\n\n\n\n\n\nCalcular promedio con funciones de python\n\n\n\n\n\n\nrange(a,b) crea un rango numérico desde a hasta el valor anterior de b. Por ejemplo range(5,10) crea rango del 5 al 9.\nfor numero in range(a,b) es un ciclo que repite todos los valores dado por la función range(a,b).\n\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Habitación 5:</span>"
@@ -100,7 +100,7 @@
     "href": "rooms/sala_06.html",
     "title": "Habitación 6:",
     "section": "",
-    "text": "Texto de la habitación.\n\nDesafío de la habitación.\n\n\n\n\n\n\n\nPista\n\n\n\n\n\nPista de la habitación\nrespuesta=True\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "text": "¡Ya te estas acercando a la mitad de los desafíos!.\n\n\n\n\n\nUn sistema cifrado transmite la secuencia de Fibonacci. Debes extraer y analizar ciertas posiciones para encontrar una clave.\n\nDe la lista de Fibonacci generada, extrae los elementos (números) en los índices 0, 2, 10, -2. Luego promedia los números extraídos.\n\n\n\n\n\n\n\nAcceder a elementos de una lista\n\n\n\n\n\nPara acceder a un elemento se neceita indicar su índice, los índices comienzan desde el valor 0 hasta n-1 dónde n igual a cantidad de elementos de la lista.\nEn Python los indices pueden ser también negativos -1, -2, -3, ..., -n pero estos se cuentan de derecha a izquierda.\nteniendo la siguiente lista lista = [1, 2, 3, 4, 5, 6]\níndices positivos:\n\n0 para obtener 1\n2 para obtener 3\n3 para obtener 4\n\níndices negativos:\n\n-6 para obtener 1\n-3 para obtener 4\n-1 para obtener 6\n\nEjemplo\nlista = [1, 2, 3, 4]\nlista[0] # Obtiene valor 1\nlista[3] # Obtiene valor 3\nlista[-3] # Obtiene valor 2\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Python Escape Room",
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Habitación 6:</span>"

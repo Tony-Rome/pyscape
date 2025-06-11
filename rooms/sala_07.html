@@ -102,7 +102,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 <script type="module">
-window.GLOBAL_URL = "https://raw.githubusercontent.com/sebastiandres/pyscape/refs/heads/main/quarto/rooms/template.py";
+window.GLOBAL_URL = "https://raw.githubusercontent.com/Tony-Rome/pyscape/refs/heads/feature/estacion-espacial/quarto/rooms/sala_07.py";
 </script>
 <style>
 #quarto-sidebar, #quarto-sidebar-container { display: none !important; }
@@ -269,7 +269,7 @@ globalThis.qpyodideCustomizedPyodideOptions = {
 }
 
 // Store cell data
-globalThis.qpyodideCellDetails = [{"code":"# Escribe tu respuesta aquí\nrespuesta = None\nprint(respuesta)\n\n# Verifica la respuesta\nimport sala\nsala.revisar(respuesta)","id":1,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
+globalThis.qpyodideCellDetails = [{"code":"objetos = [\"MEDIANO_3\", \"MEDIANO_1\", \"MEDIANO_3\", \"GRANDE_1\", \"PEQUEÑO_10\", \"GRANDE_10\", \"GRANDE_3\", \"PEQUEÑO_1\", \"PEQUEÑO_10\"]\n\n# Escribe tu respuesta aquí\nrespuesta = None\nprint(respuesta)\n\n# Verifica la respuesta\nimport sala\nsala.revisar(respuesta)","id":1,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
 
 
 </script>
@@ -738,9 +738,10 @@ globalThis._qpyodideGetInstance = function() {
 </header>
 
 
-<p>Texto de la habitación.</p>
+<p>Se han detectado objetos cercanos a la estación espacial, y se deben ingresar los datos al escaner para detectar que resultan un peligro o no.</p>
+<p>Crea una lista ordenada por las letras teniendo de referencia desde Z hastaA con los objetos que sean grandes.</p>
 <div class="alert alert-info">
-<p>Desafío de la habitación.</p>
+<p>Ordenar ocupando la función <code>sorted(lista)</code> donde <code>lista</code> es la variable que contiene el listado de objetos.</p>
 </div>
 <div class="callout callout-style-default callout-tip callout-titled" title="Pista">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
